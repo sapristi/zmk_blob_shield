@@ -1,4 +1,5 @@
-  / {
+
+/ {
     chosen {
         zmk,kscan = &kscan0;
     };
@@ -20,4 +21,20 @@
             , <&xiao_d 7 (GPIO_ACTIVE_HIGH)>
             ;
     };
+
+
+    left_encoder: encoder_left {
+        compatible = "alps,ec11";
+        a-gpios = <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "okay";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder>;
+        triggers-per-rotation = <20>;
+    };
+
 };
