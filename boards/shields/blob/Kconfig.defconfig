@@ -1,0 +1,6 @@
+if SHIELD_BLOB
+
+config ZMK_KEYBOARD_NAME
+    default "BLOB"
+
+endif

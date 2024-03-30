@@ -1,0 +1,9 @@
+file_format: "1"
+id: blob
+name: blob
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: []
+exposes: []
+features:
+  - keys
