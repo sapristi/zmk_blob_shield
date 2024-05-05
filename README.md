@@ -13,4 +13,4 @@ See at onshape:  https://cad.onshape.com/documents/68c117e034f7f4e64908e275/w/1c
 
 The wiring is done with 2 rows and 4 columns. The button from the encoder is added to the row of 3 switches. The controller is a Xiao BLE
 
-![image](https://github.com/sapristi/zmk_blob_shield/assets/901257/a21a261e-56ce-476c-8488-660e1f009670)
+![image](https://github.com/sapristi/zmk_blob_shield/assets/901257/341153a0-1f8d-44e0-b508-df2e47fc8047)
