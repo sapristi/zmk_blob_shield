@@ -1,6 +1,6 @@
 # ZMK configuration for the Blob macropad
 
-![image](https://github.com/sapristi/zmk_blob_shield/assets/901257/5a8ce34b-1f8a-4d1d-b408-1828fd15029a)
+![image](https://github.com/sapristi/zmk_blob_shield/assets/901257/35683e0f-f062-4fe1-83ce-5403fc332cb7)
 
 
 Macropad featuring 7 swtiches, and a rotary encoder (knob up to 38mm).
