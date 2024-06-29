@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     combos {
@@ -14,7 +15,11 @@
             key-positions = <0 1>;
             bindings = <&sys_reset>;
         };
-
+        combo_output {
+            timeout-ms = <50>;
+            key-positions = <0 2>;
+            bindings = <&out OUT_TOG>;
+        };
     };
 
     keymap {
