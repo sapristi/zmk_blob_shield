@@ -23,7 +23,7 @@
         };
         combo_bt_clear {
             timeout-ms = <50>;
-            key-positions = <6 7>;
+            key-positions = <0 3>;
             bindings = <&bt BT_CLR>;
         };
     };
