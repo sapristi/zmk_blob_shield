@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     combos {
@@ -20,8 +21,22 @@
             key-positions = <0 2>;
             bindings = <&out OUT_TOG>;
         };
+        combo_bt_clear {
+            timeout-ms = <50>;
+            key-positions = <6 7>;
+            bindings = <&bt BT_CLR>;
+        };
     };
 
+    // ┌───┬───┬───┬───┐
+    // │ 0 │ 1 │ 2 │ 3 │
+    // └───┴───┴───┴───┘
+    //      ╭─────╮
+    //      │  7  │      ← encoder, push = 7
+    //      ╰─────╯
+    //   ┌───┬───┬───┐
+    //   │ 4 │ 5 │ 6 │
+    //   └───┴───┴───┘
     keymap {
         compatible = "zmk,keymap";
 
